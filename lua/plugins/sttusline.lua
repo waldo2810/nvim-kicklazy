@@ -1,5 +1,6 @@
 return {
     "sontungexpt/sttusline",
+    enabled = false,
     dependencies = {
         "nvim-tree/nvim-web-devicons",
     },

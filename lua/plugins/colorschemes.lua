@@ -73,6 +73,7 @@ return {
     {
         'rose-pine/neovim',
         name = 'rose-pine',
+        enabled = false,
         -- lazy = false, -- make sure we load this during startup if it is your main colorschem
         -- priority = 1000,
         -- config = function()
@@ -87,6 +88,7 @@ return {
     {
         "rebelot/kanagawa.nvim",
         name = 'kanagawa',
+        enabled = false,
         -- lazy = false,
         -- priority = 1000,
         -- config = function()
@@ -123,6 +125,7 @@ return {
     },
     {
         "svrana/neosolarized.nvim",
+        enabled = false,
         -- lazy = false,
         -- priority = 1000,
         -- dependencies = { "tjdevries/colorbuddy.nvim" },
@@ -135,6 +138,7 @@ return {
     },
     {
         'sainnhe/gruvbox-material',
+        enabled = false,
         -- enabled = true,
         -- priority = 1000,
         -- config = function()
@@ -147,6 +151,7 @@ return {
     },
     {
         "craftzdog/solarized-osaka.nvim",
+        enabled = false,
         -- name = 'solarized-osaka',
         -- lazy = false,
         -- priority = 1000,
